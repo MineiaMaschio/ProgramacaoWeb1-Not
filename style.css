@@ -1,0 +1,84 @@
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+    margin: 5px;
+}
+
+p {
+    text-align: right;
+    font-family: arial;
+    width: 800px;
+    color: dimgray;
+    margin: 5px;
+}
+
+p.line {
+    border-bottom: solid 1px #dddddd;
+    width: 800px;
+    color: dimgray;
+}
+
+p.lastline {
+    text-align: left;
+    font-family: arial;
+    width: 800px;   
+    font-size: small;
+}
+
+table {
+    font-family: arial;
+    border-collapse: collapse;
+    width: 800px;
+}
+
+td, th {
+    border-right: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    color: dimgray;
+}
+
+td.state, th.state {
+    border-right: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: dimgray;
+}
+
+td.title, th.title {
+    text-align: center;
+    padding: 8px;
+    color: dimgray;
+    border-right: white;
+}
+
+td.brasil, th.brasil {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+td.brasilstate, th.brasilstate {
+    background-color: red;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+td.brasillastline, th.brasillastline {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-right: white;
+}
+
+tr:nth-child(even) {
+    background-color: #D3D3D3;
+}
